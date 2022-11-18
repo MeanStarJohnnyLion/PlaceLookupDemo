@@ -12,6 +12,9 @@
 		9FB1B16C2926851300BCC926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1B16B2926851300BCC926 /* Assets.xcassets */; };
 		9FB1B16F2926851300BCC926 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1B16E2926851300BCC926 /* Preview Assets.xcassets */; };
 		9FB1B1762926853200BCC926 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1B1752926853200BCC926 /* LocationManager.swift */; };
+		9FB1B17A29280A8200BCC926 /* PlaceLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1B17929280A8200BCC926 /* PlaceLookupView.swift */; };
+		9FB1B17C29280DB500BCC926 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1B17B29280DB500BCC926 /* Place.swift */; };
+		9FB1B17E2928192700BCC926 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1B17D2928192700BCC926 /* PlaceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		9FB1B16B2926851300BCC926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB1B16E2926851300BCC926 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FB1B1752926853200BCC926 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9FB1B17929280A8200BCC926 /* PlaceLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLookupView.swift; sourceTree = "<group>"; };
+		9FB1B17B29280DB500BCC926 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		9FB1B17D2928192700BCC926 /* PlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				9FB1B1672926851200BCC926 /* PlaceLookupDemoApp.swift */,
+				9FB1B17B29280DB500BCC926 /* Place.swift */,
+				9FB1B17D2928192700BCC926 /* PlaceViewModel.swift */,
 				9FB1B1752926853200BCC926 /* LocationManager.swift */,
 				9FB1B1692926851200BCC926 /* ContentView.swift */,
+				9FB1B17929280A8200BCC926 /* PlaceLookupView.swift */,
 				9FB1B16B2926851300BCC926 /* Assets.xcassets */,
 				9FB1B16D2926851300BCC926 /* Preview Content */,
 			);
@@ -142,7 +151,10 @@
 			files = (
 				9FB1B16A2926851200BCC926 /* ContentView.swift in Sources */,
 				9FB1B1682926851200BCC926 /* PlaceLookupDemoApp.swift in Sources */,
+				9FB1B17A29280A8200BCC926 /* PlaceLookupView.swift in Sources */,
 				9FB1B1762926853200BCC926 /* LocationManager.swift in Sources */,
+				9FB1B17E2928192700BCC926 /* PlaceViewModel.swift in Sources */,
+				9FB1B17C29280DB500BCC926 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
